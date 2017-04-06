@@ -1026,7 +1026,7 @@ var jsc = {
         this.pointerBorderWidth = 1; // px
         this.pointerThickness = 2; // px
 		this.zIndex = 1000;
-		this.container = null; // where to append the color picker (BODY element by default)
+		this.container = '.color-picker-wrapper'; // where to append the color picker (BODY element by default)
 
 
 		for (var opt in options) {
